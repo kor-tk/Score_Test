@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Coding\AndroidStudio\sdk\.cxx\Debug\5g354o5k\x86_64'
+ninja: no work to do.

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_activity_1"
+    tools:context=".SelectActivity">
+
+    <LinearLayout
+        android:id="@+id/part1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/part1"
+        android:layout_alignParentEnd="true"
+        android:background="#66000000"
+        android:checkedButton="@id/radio_btn_off"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radio_btn_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:text="@string/SelectActivity_Hands_Free_Check_OFF"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/radio_btn_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:text="@string/SelectActivity_Hands_Free_Check_ON"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/sheet_music_list"
+        android:layout_width="wrap_content"
+        android:layout_height="520dp"
+        android:layout_below="@id/radio_group"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="76dp"
+        android:listSelector="#CC000000"
+        android:scrollbars="horizontal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="176dp">
+
+    </ListView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/templCaptureBtn"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/sheet_music_list"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="#66000000"
+        android:text="@string/SelectActivity_templCaptureBtn"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
