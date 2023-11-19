@@ -30,6 +30,7 @@ public class StartActivity extends AppCompatActivity {
     private static final int EXTERNAL_STORAGE_REQUEST_CODE = 1000;
     private static String TAG = "startActivity";
 
+    // TODO: 23_11_20 테스트 주석 추가 - 1
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
