@@ -53,6 +53,8 @@ public class SelectActivity extends AppCompatActivity {
     ListView sheet_music_list;
     IconTextListAdapter adapter;
 
+    // TODO: 23_11_20 테스트 주석 추가 - 2
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

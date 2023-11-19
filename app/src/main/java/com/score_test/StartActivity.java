@@ -31,6 +31,7 @@ public class StartActivity extends AppCompatActivity {
     private static String TAG = "startActivity";
 
     // TODO: 23_11_20 테스트 주석 추가 - 1
+    // TODO: 23_11_20 테스트 주석 추가 - 2
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
