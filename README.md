@@ -3,10 +3,7 @@
 23_11_20 생성
 
 차근차근 수정해나가겠습니다.
-
-
-
-
+<br/><br/><br/>
 
 ### TODO LIST
 - Start->Select activity 전환 동작 수정
